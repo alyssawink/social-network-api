@@ -3,7 +3,7 @@ const { User, Thought } = require("../../models");
 
 router.get("/", async (req, res) => {
   try {
-    const users = await User.find().select("-__v");
+    const users = await User.find().select("-__v").populate("friends");
     res.status(200).json(users);
   } catch (err) {
     res.status(500).json({ error: err.message });

@@ -2,7 +2,7 @@ const mongoose = require("mongoose");
 const { User, Thought } = require("../models");
 require("dotenv").config();
 
-const mongoURI = process.env.MONGODB_URI;
+const mongoURI = "mongodb://127.0.0.1:27017/social-network-api-DB";
 
 const seedDatabase = async () => {
   try {
@@ -71,3 +71,5 @@ const seedDatabase = async () => {
 };
 
 seedDatabase();
+
+
