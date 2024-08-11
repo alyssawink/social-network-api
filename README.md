@@ -33,6 +33,7 @@ To run this application locally, follow these steps:
 
 
 ## Application Image
+![Screenshot 2024-08-11 at 3 24 02 PM](https://github.com/user-attachments/assets/ce5fbe34-6a63-43ed-a1bd-ec95a221233c)
 
 
 ## Author
